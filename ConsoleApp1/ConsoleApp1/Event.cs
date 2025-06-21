@@ -19,7 +19,7 @@ namespace Project
             Hall = hall;
         }
 
-        public void Display()
+        public virtual void Display()
         {
             Console.WriteLine("");
             Console.WriteLine("--Event details--");

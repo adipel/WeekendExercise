@@ -15,7 +15,7 @@ namespace Project
             Title = title;
         }
 
-        public void Display()
+        public override void Display()
         {
             base.Display();
             Console.WriteLine($"Title: {Title}");

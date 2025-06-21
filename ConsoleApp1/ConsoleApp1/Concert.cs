@@ -15,7 +15,7 @@ namespace Project
             Instruments = instruments;
         }
 
-        public void Display()
+        public override void Display()
         {
             base.Display();
             Console.WriteLine("Musical instruments:");
