@@ -6,10 +6,15 @@ namespace Project
     {
         static void Main(string[] args)
         {
-            DateTime t = new DateTime(2025, 3, 4, 20, 30, 0);
-            Show A = new Show("a", 45, t, 5);
+            DateTime time1 = new DateTime(2025, 3, 4, 20, 30, 0);
+            Show show = new Show("Annie", 45, time1, 5);
 
-            A.Display();
+            var instruments = new List<string> { "Guitar", "Drums", "Violin" };
+            DateTime time2 = new DateTime(2025, 7, 10, 20, 30, 0);
+            Concert concert = new Concert(instruments, 120, time2, 3);
+
+            show.Display();
+            concert.Display();
         }
     }
 }

@@ -12,3 +12,18 @@ C:\Users\adipe\OneDrive\שולחן העבודה\צבא\תרגיל לסופש - �
 C:\Users\adipe\OneDrive\שולחן העבודה\צבא\תרגיל לסופש - היכל התרבות\ConsoleApp1\ConsoleApp1\obj\Debug\net7.0\Project.pdb
 C:\Users\adipe\OneDrive\שולחן העבודה\צבא\תרגיל לסופש - היכל התרבות\ConsoleApp1\ConsoleApp1\obj\Debug\net7.0\Project.genruntimeconfig.cache
 C:\Users\adipe\OneDrive\שולחן העבודה\צבא\תרגיל לסופש - היכל התרבות\ConsoleApp1\ConsoleApp1\obj\Debug\net7.0\ref\Project.dll
+C:\Users\micha\OneDrive\Desktop\WeekendExercise\ConsoleApp1\ConsoleApp1\bin\Debug\net7.0\Project.exe
+C:\Users\micha\OneDrive\Desktop\WeekendExercise\ConsoleApp1\ConsoleApp1\bin\Debug\net7.0\Project.deps.json
+C:\Users\micha\OneDrive\Desktop\WeekendExercise\ConsoleApp1\ConsoleApp1\bin\Debug\net7.0\Project.runtimeconfig.json
+C:\Users\micha\OneDrive\Desktop\WeekendExercise\ConsoleApp1\ConsoleApp1\bin\Debug\net7.0\Project.dll
+C:\Users\micha\OneDrive\Desktop\WeekendExercise\ConsoleApp1\ConsoleApp1\bin\Debug\net7.0\Project.pdb
+C:\Users\micha\OneDrive\Desktop\WeekendExercise\ConsoleApp1\ConsoleApp1\obj\Debug\net7.0\Project.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\micha\OneDrive\Desktop\WeekendExercise\ConsoleApp1\ConsoleApp1\obj\Debug\net7.0\Project.AssemblyInfoInputs.cache
+C:\Users\micha\OneDrive\Desktop\WeekendExercise\ConsoleApp1\ConsoleApp1\obj\Debug\net7.0\Project.AssemblyInfo.cs
+C:\Users\micha\OneDrive\Desktop\WeekendExercise\ConsoleApp1\ConsoleApp1\obj\Debug\net7.0\Project.csproj.CoreCompileInputs.cache
+C:\Users\micha\OneDrive\Desktop\WeekendExercise\ConsoleApp1\ConsoleApp1\obj\Debug\net7.0\Project.sourcelink.json
+C:\Users\micha\OneDrive\Desktop\WeekendExercise\ConsoleApp1\ConsoleApp1\obj\Debug\net7.0\Project.dll
+C:\Users\micha\OneDrive\Desktop\WeekendExercise\ConsoleApp1\ConsoleApp1\obj\Debug\net7.0\refint\Project.dll
+C:\Users\micha\OneDrive\Desktop\WeekendExercise\ConsoleApp1\ConsoleApp1\obj\Debug\net7.0\Project.pdb
+C:\Users\micha\OneDrive\Desktop\WeekendExercise\ConsoleApp1\ConsoleApp1\obj\Debug\net7.0\Project.genruntimeconfig.cache
+C:\Users\micha\OneDrive\Desktop\WeekendExercise\ConsoleApp1\ConsoleApp1\obj\Debug\net7.0\ref\Project.dll

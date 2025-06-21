@@ -21,11 +21,13 @@ namespace Project
 
         public void Display()
         {
+            Console.WriteLine("");
             Console.WriteLine("--Event details--");
             Console.WriteLine("");
-            Console.WriteLine($"Length: {Length} min");
             Console.WriteLine($"Time: {Time}");
+            Console.WriteLine($"Length: {Length} min");
             Console.WriteLine($"Hall: {Hall}");
+
         }
 
     }

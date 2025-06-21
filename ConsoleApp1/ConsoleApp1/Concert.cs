@@ -18,7 +18,11 @@ namespace Project
         public void Display()
         {
             base.Display();
-            Console.WriteLine($"Mוsical instruments: {Instruments}");
+            Console.WriteLine("Musical instruments:");
+            foreach (var instrument in Instruments)
+            {
+                Console.WriteLine($"- {instrument}");
+            }
         }
 
     }

@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\micha\\OneDrive\\Desktop\\WeekendExercise\\ConsoleApp1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:1:0:{2821ECAD-5F31-42A9-8F3F-A41FAD8AE296}|ConsoleApp1\\Project.csproj|c:\\users\\micha\\onedrive\\desktop\\weekendexercise\\consoleapp1\\consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:1:0:{2821ECAD-5F31-42A9-8F3F-A41FAD8AE296}|ConsoleApp1\\Project.csproj|solutionrelative:consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2821ECAD-5F31-42A9-8F3F-A41FAD8AE296}|ConsoleApp1\\Project.csproj|c:\\users\\micha\\onedrive\\desktop\\weekendexercise\\consoleapp1\\consoleapp1\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2821ECAD-5F31-42A9-8F3F-A41FAD8AE296}|ConsoleApp1\\Project.csproj|solutionrelative:consoleapp1\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2821ECAD-5F31-42A9-8F3F-A41FAD8AE296}|ConsoleApp1\\Project.csproj|c:\\users\\micha\\onedrive\\desktop\\weekendexercise\\consoleapp1\\consoleapp1\\concert.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2821ECAD-5F31-42A9-8F3F-A41FAD8AE296}|ConsoleApp1\\Project.csproj|solutionrelative:consoleapp1\\concert.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2821ECAD-5F31-42A9-8F3F-A41FAD8AE296}|ConsoleApp1\\Project.csproj|c:\\users\\micha\\onedrive\\desktop\\weekendexercise\\consoleapp1\\consoleapp1\\idisplayable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2821ECAD-5F31-42A9-8F3F-A41FAD8AE296}|ConsoleApp1\\Project.csproj|solutionrelative:consoleapp1\\idisplayable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2821ECAD-5F31-42A9-8F3F-A41FAD8AE296}|ConsoleApp1\\Project.csproj|c:\\users\\micha\\onedrive\\desktop\\weekendexercise\\consoleapp1\\consoleapp1\\show.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2821ECAD-5F31-42A9-8F3F-A41FAD8AE296}|ConsoleApp1\\Project.csproj|solutionrelative:consoleapp1\\show.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:2:0:{2821ECAD-5F31-42A9-8F3F-A41FAD8AE296}|ConsoleApp1\\Project.csproj|c:\\users\\micha\\onedrive\\desktop\\weekendexercise\\consoleapp1\\consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:2:0:{2821ECAD-5F31-42A9-8F3F-A41FAD8AE296}|ConsoleApp1\\Project.csproj|solutionrelative:consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\micha\\OneDrive\\Desktop\\WeekendExercise\\ConsoleApp1\\ConsoleApp1\\Program.cs",
+              "RelativeDocumentMoniker": "ConsoleApp1\\Program.cs",
+              "ToolTip": "C:\\Users\\micha\\OneDrive\\Desktop\\WeekendExercise\\ConsoleApp1\\ConsoleApp1\\Program.cs",
+              "RelativeToolTip": "ConsoleApp1\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T13:38:18.723Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Event.cs",
+              "DocumentMoniker": "C:\\Users\\micha\\OneDrive\\Desktop\\WeekendExercise\\ConsoleApp1\\ConsoleApp1\\Event.cs",
+              "RelativeDocumentMoniker": "ConsoleApp1\\Event.cs",
+              "ToolTip": "C:\\Users\\micha\\OneDrive\\Desktop\\WeekendExercise\\ConsoleApp1\\ConsoleApp1\\Event.cs",
+              "RelativeToolTip": "ConsoleApp1\\Event.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAzwB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T13:38:18.837Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IDisplayable.cs",
+              "DocumentMoniker": "C:\\Users\\micha\\OneDrive\\Desktop\\WeekendExercise\\ConsoleApp1\\ConsoleApp1\\IDisplayable.cs",
+              "RelativeDocumentMoniker": "ConsoleApp1\\IDisplayable.cs",
+              "ToolTip": "C:\\Users\\micha\\OneDrive\\Desktop\\WeekendExercise\\ConsoleApp1\\ConsoleApp1\\IDisplayable.cs",
+              "RelativeToolTip": "ConsoleApp1\\IDisplayable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T13:38:18.835Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Concert.cs",
+              "DocumentMoniker": "C:\\Users\\micha\\OneDrive\\Desktop\\WeekendExercise\\ConsoleApp1\\ConsoleApp1\\Concert.cs",
+              "RelativeDocumentMoniker": "ConsoleApp1\\Concert.cs",
+              "ToolTip": "C:\\Users\\micha\\OneDrive\\Desktop\\WeekendExercise\\ConsoleApp1\\ConsoleApp1\\Concert.cs",
+              "RelativeToolTip": "ConsoleApp1\\Concert.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAABMAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T13:38:18.838Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Show.cs",
+              "DocumentMoniker": "C:\\Users\\micha\\OneDrive\\Desktop\\WeekendExercise\\ConsoleApp1\\ConsoleApp1\\Show.cs",
+              "RelativeDocumentMoniker": "ConsoleApp1\\Show.cs",
+              "ToolTip": "C:\\Users\\micha\\OneDrive\\Desktop\\WeekendExercise\\ConsoleApp1\\ConsoleApp1\\Show.cs",
+              "RelativeToolTip": "ConsoleApp1\\Show.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAA5wBEAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T13:38:18.84Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\micha\\OneDrive\\Desktop\\WeekendExercise\\ConsoleApp1\\ConsoleApp1\\Program.cs",
+              "RelativeDocumentMoniker": "ConsoleApp1\\Program.cs",
+              "ToolTip": "C:\\Users\\micha\\OneDrive\\Desktop\\WeekendExercise\\ConsoleApp1\\ConsoleApp1\\Program.cs",
+              "RelativeToolTip": "ConsoleApp1\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T13:38:18.842Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
