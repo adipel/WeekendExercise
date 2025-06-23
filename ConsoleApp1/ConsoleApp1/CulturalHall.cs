@@ -39,6 +39,20 @@ namespace Project
             }
         }
 
+        public List<Event> GetEventsByDate(DateTime time)
+        {
+            List<Event> events = new List<Event>();
+
+            foreach (var Event in _events)
+            {
+                if (Event.Time.Date == time.Date)
+                {
+                    events.Add(Event);
+                }
+            }
+            return events;
+        }
+
 
 
     }

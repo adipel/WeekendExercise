@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\micha\\OneDrive\\Desktop\\WeekendExercise\\ConsoleApp1\\ConsoleApp1\\Project.csproj": {}
+    "C:\\Users\\ILPC\\Desktop\\WeekendExercise\\ConsoleApp1\\ConsoleApp1\\Project.csproj": {}
   },
   "projects": {
-    "C:\\Users\\micha\\OneDrive\\Desktop\\WeekendExercise\\ConsoleApp1\\ConsoleApp1\\Project.csproj": {
+    "C:\\Users\\ILPC\\Desktop\\WeekendExercise\\ConsoleApp1\\ConsoleApp1\\Project.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\micha\\OneDrive\\Desktop\\WeekendExercise\\ConsoleApp1\\ConsoleApp1\\Project.csproj",
+        "projectUniqueName": "C:\\Users\\ILPC\\Desktop\\WeekendExercise\\ConsoleApp1\\ConsoleApp1\\Project.csproj",
         "projectName": "Project",
-        "projectPath": "C:\\Users\\micha\\OneDrive\\Desktop\\WeekendExercise\\ConsoleApp1\\ConsoleApp1\\Project.csproj",
-        "packagesPath": "C:\\Users\\micha\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\micha\\OneDrive\\Desktop\\WeekendExercise\\ConsoleApp1\\ConsoleApp1\\obj\\",
+        "projectPath": "C:\\Users\\ILPC\\Desktop\\WeekendExercise\\ConsoleApp1\\ConsoleApp1\\Project.csproj",
+        "packagesPath": "C:\\Users\\ILPC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ILPC\\Desktop\\WeekendExercise\\ConsoleApp1\\ConsoleApp1\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\micha\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\ILPC\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
