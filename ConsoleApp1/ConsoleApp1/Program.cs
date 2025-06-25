@@ -16,11 +16,10 @@ namespace Project
             List<Event> events = new List<Event> {show, concert};
 
             CulturalHall culturalHall = new CulturalHall(events);
-            //culturalHall.DisplayEvents();
 
             Menu menu = new Menu(culturalHall);
 
-            menu.Start();
+            menu.MainMenuStart();
         }
     }
 }
