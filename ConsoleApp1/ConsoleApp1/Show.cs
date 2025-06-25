@@ -10,7 +10,7 @@ namespace Project
     {
         public string Title { get; set; }
 
-        public Show(string title, double length, DateTime time, int hall) : base(length, time, hall)
+        public Show(string title, double length, DateTime time, int hall, int minimumAge) : base(length, time, hall, minimumAge)
         {
             Title = title;
         }

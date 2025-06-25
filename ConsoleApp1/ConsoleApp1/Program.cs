@@ -7,16 +7,20 @@ namespace Project
         static void Main(string[] args)
         {
             DateTime time1 = new DateTime(2025, 3, 4, 20, 30, 0);
-            Show show = new Show("Annie", 45, time1, 5);
+            Show show = new Show("Annie", 45, time1, 5, 7);
 
             List<string> instruments = new List<string> {"Guitar", "Drums", "Violin"};
             DateTime time2 = new DateTime(2025, 7, 10, 20, 30, 0);
-            Concert concert = new Concert(instruments, 120, time2, 3);
+            Concert concert = new Concert(instruments, 120, time2, 3, 18);
 
             List<Event> events = new List<Event> {show, concert};
 
             CulturalHall culturalHall = new CulturalHall(events);
-            culturalHall.DisplayEvents();
+            //culturalHall.DisplayEvents();
+
+            Menu menu = new Menu(culturalHall);
+
+            menu.Start();
         }
     }
 }

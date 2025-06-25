@@ -10,7 +10,7 @@ namespace Project
     {
         public List<string> Instruments { get; set; }
 
-        public Concert(List<string> instruments, double length, DateTime time, int hall) : base(length, time, hall)
+        public Concert(List<string> instruments, double length, DateTime time, int hall, int minimumAge) : base(length, time, hall, minimumAge)
         {
             Instruments = instruments;
         }

@@ -11,18 +11,20 @@ namespace Project
         public double Length { get; set; }
         public DateTime Time { get; set; }
         public int Hall { get; set; }
+        public int MinimumAge { get; set; }
 
-        public Event(double length, DateTime time, int hall)
+        public Event(double length, DateTime time, int hall, int minimumAge)
         {
             Length = length;
             Time = time;
             Hall = hall;
+            MinimumAge = minimumAge;
         }
 
         public virtual void Display()
         {
             Console.WriteLine("");
-            Console.WriteLine("--Event details--");
+            Console.WriteLine("Event details");
             Console.WriteLine("");
             Console.WriteLine($"Time: {Time}");
             Console.WriteLine($"Length: {Length} min");
