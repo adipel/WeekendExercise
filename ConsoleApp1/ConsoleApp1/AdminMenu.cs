@@ -76,8 +76,9 @@ namespace Project
 
             Console.WriteLine("Enter length (in min):");
             double eventLength = double.Parse(Console.ReadLine());
-            Console.WriteLine("Enter hall:");
-            int eventHall = int.Parse(Console.ReadLine());
+
+            int eventHall = GetHall(eventTime);
+
             Console.WriteLine("Enter minimum age:");
             int minimumAge = int.Parse(Console.ReadLine());
 
@@ -94,6 +95,22 @@ namespace Project
             else
             {
                 throw new Exception($"Invalid event type - {eventType}");
+            }
+        }
+
+        private int GetHall(DateTime eventTime)
+        {
+            Console.WriteLine("Enter hall:");
+            int eventHall = int.Parse(Console.ReadLine());
+            if (_culturalHall.IsHallOccupied(eventTime, eventHall))
+            {
+                Console.WriteLine("This hall is occupied at this time.");
+                Console.WriteLine("");
+                return GetHall(eventTime);
+            }
+            else
+            {
+                return eventHall;
             }
         }
 

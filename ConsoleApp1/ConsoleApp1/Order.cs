@@ -20,11 +20,14 @@ namespace Project
         public void Display()
         {
             TheEvent.Display();
-            Console.WriteLine("Invited People -");
+            Console.WriteLine("");
+            Console.WriteLine("Invited People");
+            Console.WriteLine("");
             foreach (var person in InvitedPeopleAndAge)
             {
                 Console.WriteLine($"Name - {person.Key}   Age - {person.Value}");
             }
+            Console.WriteLine("");
 
         }
     }

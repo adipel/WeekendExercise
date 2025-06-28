@@ -27,6 +27,18 @@ namespace Project
             _users = users;
         }
 
+        public bool IsHallOccupied(DateTime newEventTime, int newEventHall)
+        {
+            foreach (Event existingEvent in _events)
+            {
+                if (existingEvent.Hall == newEventHall && existingEvent.Time == newEventTime)
+                {
+                    return true;
+                }
+            }
+            return false;
+        }
+
         public bool IsUserExists(string username)
         {
             if(_users != null)
@@ -140,7 +152,7 @@ namespace Project
 
         public void DisplayTicketsOfUser(string usernameToSee)
         {
-
+            bool userExist = false;
             if (_users != null)
             {
                 foreach (User user in _users)
@@ -148,7 +160,12 @@ namespace Project
                     if (user.UserName == usernameToSee)
                     {
                         user.Display();
+                        userExist = true;
                     }
+                }
+                if(!userExist)
+                {
+                    Console.WriteLine("There are no existing orders for this user.");
                 }
             }
             else
