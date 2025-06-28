@@ -7,26 +7,6 @@
       "RelativeMoniker": "D:0:0:{2821ECAD-5F31-42A9-8F3F-A41FAD8AE296}|ConsoleApp1\\Project.csproj|solutionrelative:consoleapp1\\ceomenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2821ECAD-5F31-42A9-8F3F-A41FAD8AE296}|ConsoleApp1\\Project.csproj|c:\\users\\ilpc\\desktop\\weekendexercise\\consoleapp1\\consoleapp1\\worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2821ECAD-5F31-42A9-8F3F-A41FAD8AE296}|ConsoleApp1\\Project.csproj|solutionrelative:consoleapp1\\worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2821ECAD-5F31-42A9-8F3F-A41FAD8AE296}|ConsoleApp1\\Project.csproj|c:\\users\\ilpc\\desktop\\weekendexercise\\consoleapp1\\consoleapp1\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2821ECAD-5F31-42A9-8F3F-A41FAD8AE296}|ConsoleApp1\\Project.csproj|solutionrelative:consoleapp1\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2821ECAD-5F31-42A9-8F3F-A41FAD8AE296}|ConsoleApp1\\Project.csproj|c:\\users\\ilpc\\desktop\\weekendexercise\\consoleapp1\\consoleapp1\\culturalhall.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2821ECAD-5F31-42A9-8F3F-A41FAD8AE296}|ConsoleApp1\\Project.csproj|solutionrelative:consoleapp1\\culturalhall.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2821ECAD-5F31-42A9-8F3F-A41FAD8AE296}|ConsoleApp1\\Project.csproj|c:\\users\\ilpc\\desktop\\weekendexercise\\consoleapp1\\consoleapp1\\adminmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2821ECAD-5F31-42A9-8F3F-A41FAD8AE296}|ConsoleApp1\\Project.csproj|solutionrelative:consoleapp1\\adminmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2821ECAD-5F31-42A9-8F3F-A41FAD8AE296}|ConsoleApp1\\Project.csproj|c:\\users\\ilpc\\desktop\\weekendexercise\\consoleapp1\\consoleapp1\\regularmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2821ECAD-5F31-42A9-8F3F-A41FAD8AE296}|ConsoleApp1\\Project.csproj|solutionrelative:consoleapp1\\regularmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2821ECAD-5F31-42A9-8F3F-A41FAD8AE296}|ConsoleApp1\\Project.csproj|c:\\users\\ilpc\\desktop\\weekendexercise\\consoleapp1\\consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2821ECAD-5F31-42A9-8F3F-A41FAD8AE296}|ConsoleApp1\\Project.csproj|solutionrelative:consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -35,16 +15,36 @@
       "RelativeMoniker": "D:0:0:{2821ECAD-5F31-42A9-8F3F-A41FAD8AE296}|ConsoleApp1\\Project.csproj|solutionrelative:consoleapp1\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{2821ECAD-5F31-42A9-8F3F-A41FAD8AE296}|ConsoleApp1\\Project.csproj|c:\\users\\ilpc\\desktop\\weekendexercise\\consoleapp1\\consoleapp1\\regularmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2821ECAD-5F31-42A9-8F3F-A41FAD8AE296}|ConsoleApp1\\Project.csproj|solutionrelative:consoleapp1\\regularmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2821ECAD-5F31-42A9-8F3F-A41FAD8AE296}|ConsoleApp1\\Project.csproj|c:\\users\\ilpc\\desktop\\weekendexercise\\consoleapp1\\consoleapp1\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2821ECAD-5F31-42A9-8F3F-A41FAD8AE296}|ConsoleApp1\\Project.csproj|solutionrelative:consoleapp1\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2821ECAD-5F31-42A9-8F3F-A41FAD8AE296}|ConsoleApp1\\Project.csproj|c:\\users\\ilpc\\desktop\\weekendexercise\\consoleapp1\\consoleapp1\\concert.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2821ECAD-5F31-42A9-8F3F-A41FAD8AE296}|ConsoleApp1\\Project.csproj|solutionrelative:consoleapp1\\concert.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2821ECAD-5F31-42A9-8F3F-A41FAD8AE296}|ConsoleApp1\\Project.csproj|c:\\users\\ilpc\\desktop\\weekendexercise\\consoleapp1\\consoleapp1\\adminmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2821ECAD-5F31-42A9-8F3F-A41FAD8AE296}|ConsoleApp1\\Project.csproj|solutionrelative:consoleapp1\\adminmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2821ECAD-5F31-42A9-8F3F-A41FAD8AE296}|ConsoleApp1\\Project.csproj|c:\\users\\ilpc\\desktop\\weekendexercise\\consoleapp1\\consoleapp1\\worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2821ECAD-5F31-42A9-8F3F-A41FAD8AE296}|ConsoleApp1\\Project.csproj|solutionrelative:consoleapp1\\worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2821ECAD-5F31-42A9-8F3F-A41FAD8AE296}|ConsoleApp1\\Project.csproj|c:\\users\\ilpc\\desktop\\weekendexercise\\consoleapp1\\consoleapp1\\culturalhall.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2821ECAD-5F31-42A9-8F3F-A41FAD8AE296}|ConsoleApp1\\Project.csproj|solutionrelative:consoleapp1\\culturalhall.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2821ECAD-5F31-42A9-8F3F-A41FAD8AE296}|ConsoleApp1\\Project.csproj|c:\\users\\ilpc\\desktop\\weekendexercise\\consoleapp1\\consoleapp1\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2821ECAD-5F31-42A9-8F3F-A41FAD8AE296}|ConsoleApp1\\Project.csproj|solutionrelative:consoleapp1\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2821ECAD-5F31-42A9-8F3F-A41FAD8AE296}|ConsoleApp1\\Project.csproj|c:\\users\\ilpc\\desktop\\weekendexercise\\consoleapp1\\consoleapp1\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2821ECAD-5F31-42A9-8F3F-A41FAD8AE296}|ConsoleApp1\\Project.csproj|solutionrelative:consoleapp1\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2821ECAD-5F31-42A9-8F3F-A41FAD8AE296}|ConsoleApp1\\Project.csproj|c:\\users\\ilpc\\desktop\\weekendexercise\\consoleapp1\\consoleapp1\\concert.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2821ECAD-5F31-42A9-8F3F-A41FAD8AE296}|ConsoleApp1\\Project.csproj|solutionrelative:consoleapp1\\concert.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2821ECAD-5F31-42A9-8F3F-A41FAD8AE296}|ConsoleApp1\\Project.csproj|c:\\users\\ilpc\\desktop\\weekendexercise\\consoleapp1\\consoleapp1\\show.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -66,13 +66,13 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\ILPC\\Desktop\\WeekendExercise\\ConsoleApp1\\ConsoleApp1\\Program.cs",
               "RelativeDocumentMoniker": "ConsoleApp1\\Program.cs",
               "ToolTip": "C:\\Users\\ILPC\\Desktop\\WeekendExercise\\ConsoleApp1\\ConsoleApp1\\Program.cs",
               "RelativeToolTip": "ConsoleApp1\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAA/AAAAAAAAAA==",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAQwBMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-21T13:38:18.723Z",
               "IsPinned": true,
@@ -86,108 +86,111 @@
               "RelativeDocumentMoniker": "ConsoleApp1\\CEOmenu.cs",
               "ToolTip": "C:\\Users\\ILPC\\Desktop\\WeekendExercise\\ConsoleApp1\\ConsoleApp1\\CEOmenu.cs",
               "RelativeToolTip": "ConsoleApp1\\CEOmenu.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAA1wB8AAAARAAAAAAAAAA==",
+              "ViewState": "AgIAADAAAAAAAAAAAAAYwGwAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-28T11:28:50.536Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "Worker.cs",
               "DocumentMoniker": "C:\\Users\\ILPC\\Desktop\\WeekendExercise\\ConsoleApp1\\ConsoleApp1\\Worker.cs",
               "RelativeDocumentMoniker": "ConsoleApp1\\Worker.cs",
               "ToolTip": "C:\\Users\\ILPC\\Desktop\\WeekendExercise\\ConsoleApp1\\ConsoleApp1\\Worker.cs",
               "RelativeToolTip": "ConsoleApp1\\Worker.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-28T11:22:59.11Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 9,
               "Title": "Order.cs",
               "DocumentMoniker": "C:\\Users\\ILPC\\Desktop\\WeekendExercise\\ConsoleApp1\\ConsoleApp1\\Order.cs",
               "RelativeDocumentMoniker": "ConsoleApp1\\Order.cs",
               "ToolTip": "C:\\Users\\ILPC\\Desktop\\WeekendExercise\\ConsoleApp1\\ConsoleApp1\\Order.cs",
               "RelativeToolTip": "ConsoleApp1\\Order.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAAAABUAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-28T06:49:13.474Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 4,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\ILPC\\Desktop\\WeekendExercise\\ConsoleApp1\\ConsoleApp1\\User.cs",
               "RelativeDocumentMoniker": "ConsoleApp1\\User.cs",
               "ToolTip": "C:\\Users\\ILPC\\Desktop\\WeekendExercise\\ConsoleApp1\\ConsoleApp1\\User.cs",
               "RelativeToolTip": "ConsoleApp1\\User.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAAwCAAAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-28T06:48:49.673Z"
+              "WhenOpened": "2025-06-28T06:48:49.673Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "RegularMenu.cs",
               "DocumentMoniker": "C:\\Users\\ILPC\\Desktop\\WeekendExercise\\ConsoleApp1\\ConsoleApp1\\RegularMenu.cs",
               "RelativeDocumentMoniker": "ConsoleApp1\\RegularMenu.cs",
               "ToolTip": "C:\\Users\\ILPC\\Desktop\\WeekendExercise\\ConsoleApp1\\ConsoleApp1\\RegularMenu.cs",
               "RelativeToolTip": "ConsoleApp1\\RegularMenu.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAgwIoAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAYwBwAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-25T20:50:57.055Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 2,
               "Title": "Menu.cs",
               "DocumentMoniker": "C:\\Users\\ILPC\\Desktop\\WeekendExercise\\ConsoleApp1\\ConsoleApp1\\Menu.cs",
               "RelativeDocumentMoniker": "ConsoleApp1\\Menu.cs",
               "ToolTip": "C:\\Users\\ILPC\\Desktop\\WeekendExercise\\ConsoleApp1\\ConsoleApp1\\Menu.cs",
               "RelativeToolTip": "ConsoleApp1\\Menu.cs",
-              "ViewState": "AgIAADYAAAAAAAAAAAAIwEcAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAgAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T17:52:39.257Z"
+              "WhenOpened": "2025-06-22T17:52:39.257Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "AdminMenu.cs",
               "DocumentMoniker": "C:\\Users\\ILPC\\Desktop\\WeekendExercise\\ConsoleApp1\\ConsoleApp1\\AdminMenu.cs",
               "RelativeDocumentMoniker": "ConsoleApp1\\AdminMenu.cs",
               "ToolTip": "C:\\Users\\ILPC\\Desktop\\WeekendExercise\\ConsoleApp1\\ConsoleApp1\\AdminMenu.cs",
               "RelativeToolTip": "ConsoleApp1\\AdminMenu.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAYwJkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACEAAAAAAAAAAAAYwBoAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-25T20:40:03.344Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 8,
               "Title": "Event.cs",
               "DocumentMoniker": "C:\\Users\\ILPC\\Desktop\\WeekendExercise\\ConsoleApp1\\ConsoleApp1\\Event.cs",
               "RelativeDocumentMoniker": "ConsoleApp1\\Event.cs",
               "ToolTip": "C:\\Users\\ILPC\\Desktop\\WeekendExercise\\ConsoleApp1\\ConsoleApp1\\Event.cs",
               "RelativeToolTip": "ConsoleApp1\\Event.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAA1wBcAAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-21T13:38:18.837Z"
+              "WhenOpened": "2025-06-21T13:38:18.837Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "CulturalHall.cs",
               "DocumentMoniker": "C:\\Users\\ILPC\\Desktop\\WeekendExercise\\ConsoleApp1\\ConsoleApp1\\CulturalHall.cs",
               "RelativeDocumentMoniker": "ConsoleApp1\\CulturalHall.cs",
               "ToolTip": "C:\\Users\\ILPC\\Desktop\\WeekendExercise\\ConsoleApp1\\ConsoleApp1\\CulturalHall.cs",
               "RelativeToolTip": "ConsoleApp1\\CulturalHall.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAAKMAAAAAAAAAAAAQwN8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-21T17:34:04.382Z",
               "EditorCaption": ""
@@ -206,7 +209,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Concert.cs",
               "DocumentMoniker": "C:\\Users\\ILPC\\Desktop\\WeekendExercise\\ConsoleApp1\\ConsoleApp1\\Concert.cs",
               "RelativeDocumentMoniker": "ConsoleApp1\\Concert.cs",

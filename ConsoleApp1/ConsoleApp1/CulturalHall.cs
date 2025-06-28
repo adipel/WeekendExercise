@@ -32,6 +32,19 @@ namespace Project
             Workers = new List<Worker>();
         }
 
+        public CulturalHall(List<Event> events, Worker theCEO, List<Worker> workers)
+        {
+            CEO = theCEO;
+            _events = events;
+            Workers = workers;
+            _users = new List<User>();
+        }
+
+        public void ReplaceCEO(Worker newCEO)
+        {
+            CEO = newCEO;
+        }
+
         public void DisplayWorkers()
         {
             for (int i = 0; i < Workers.Count; i++)

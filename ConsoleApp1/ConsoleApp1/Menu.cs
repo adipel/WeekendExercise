@@ -11,29 +11,29 @@ namespace Project
 
     internal class Menu
     {
-        protected CulturalHall _culturalHall;
-        protected string _userName;
+        protected CulturalHall culturalHall;
+        protected string userName;
 
-        public Menu(CulturalHall culturalHall)
+        public Menu(CulturalHall theCulturalHall)
         {
-            _culturalHall = culturalHall;
+            culturalHall = theCulturalHall;
         }
 
         public void MainMenuStart()
         {
             Console.WriteLine("Please enter your username");
-            _userName = Console.ReadLine();
-            NullCheck(_userName);
+            userName = Console.ReadLine();
+            NullCheck(userName);
 
-            RegularMenu regularMenu = new RegularMenu(_culturalHall, _userName);
-            AdminMenu adminMenu = new AdminMenu(_culturalHall);
-            CEOmenu theCEOmenu = new CEOmenu(_culturalHall);
+            RegularMenu regularMenu = new RegularMenu(culturalHall, userName);
+            AdminMenu adminMenu = new AdminMenu(culturalHall);
+            CEOmenu theCEOmenu = new CEOmenu(culturalHall);
 
-            if (IsAdmin(_userName))
+            if (IsAdmin(userName))
             {
                 adminMenu.Start();
             }
-            else if (IsCEO(_userName))
+            else if (IsCEO(userName))
             {
                 theCEOmenu.Start();
             }
@@ -51,7 +51,7 @@ namespace Project
 
         private bool IsCEO(string userName)
         {
-            return userName == "CEO";
+            return userName == culturalHall.CEO.FullName;
         }
 
         protected void NullCheck(string input)
@@ -65,7 +65,7 @@ namespace Project
         protected int GetInt()
         {
             string str = Console.ReadLine();
-            NullCheck(str);
+
             if (int.TryParse(str, out int number))
             {
                 return number;

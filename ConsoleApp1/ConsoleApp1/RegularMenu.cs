@@ -26,7 +26,7 @@ namespace Project
                 Console.WriteLine("Enter 3 - To see all of the existing events");
                 Console.WriteLine("Enter 4 - To buy a ticket to a future event");
 
-                int selection = int.Parse(Console.ReadLine());
+                int selection = GetInt();
 
 
                 switch (selection)
@@ -40,7 +40,7 @@ namespace Project
                         break;
 
                     case 3:
-                        _culturalHall.DisplayEvents();
+                        culturalHall.DisplayEvents();
                         break;
 
                     case 4:
@@ -57,7 +57,7 @@ namespace Project
 
         private void BuyTickets()
         {
-            _culturalHall.DisplayOptionsForTickets();
+            culturalHall.DisplayOptionsForTickets();
             Event selectedEvent = GetSelectedTicket();
             Dictionary<string, int> invitedPeopleAndAge = GetInvitedPeople();
 
@@ -86,30 +86,32 @@ namespace Project
         {
             Order newOrder = new Order(theEvent, invitedPeopleAndAge);
 
-            if(_culturalHall.IsUserExists(UserName))
+            if(culturalHall.IsUserExists(UserName))
             {
-                _culturalHall.AddOrderToExistingUser(UserName, newOrder);
+                culturalHall.AddOrderToExistingUser(UserName, newOrder);
             }
             else
             {
                 User newUser = new User(UserName);
                 newUser.AddOrder(newOrder);
-                _culturalHall.AddUser(newUser);
+                culturalHall.AddUser(newUser);
             }
         }
 
         private Dictionary<string, int> GetInvitedPeople()
         {
             Console.WriteLine("Please enter the number of people you would like to order a ticket for: ");
-            int numberOfPeople = int.Parse(Console.ReadLine());
+            int numberOfPeople = GetInt();
 
             Dictionary<string, int> invitedPeople = new Dictionary<string, int>();
             for (int i = 0; i < numberOfPeople; i++)
             {
                 Console.WriteLine($"{i} Enter name:");
                 string name = Console.ReadLine();
+                NullCheck(name);
+
                 Console.WriteLine($"{i} Enter age:");
-                int age = int.Parse(Console.ReadLine());
+                int age = GetInt();
                 invitedPeople[name] = age;
             }
             return invitedPeople;
@@ -117,12 +119,12 @@ namespace Project
 
         private Event GetSelectedTicket()
         {
-            Event[] OptionsForTickets = _culturalHall.GetFutureEvents();
+            Event[] OptionsForTickets = culturalHall.GetFutureEvents();
             int selection;
             do
             {
                 Console.WriteLine("Please enter the event number you would like to buy a ticket for (one of the Options)");
-                selection = int.Parse(Console.ReadLine());
+                selection = GetInt();
             }
             while (!(selection >= 0 && selection < OptionsForTickets.Length + 1));
 

@@ -24,7 +24,7 @@ namespace Project
                 Console.WriteLine("Enter 3 - To see all of the existing events");
                 Console.WriteLine("Enter 4 - To see events on a specific date");
                 Console.WriteLine("Enter 5 - To see all tickets ordered by a specific user");
-                int selection = int.Parse(Console.ReadLine());
+                int selection = GetInt();
 
 
                 switch (selection)
@@ -38,7 +38,7 @@ namespace Project
                     break;
 
                     case 3:
-                        _culturalHall.DisplayEvents();
+                        culturalHall.DisplayEvents();
                     break;
 
                     case 4:
@@ -60,7 +60,7 @@ namespace Project
         {
             Console.WriteLine("--Add a new event--");
             string eventType = GetEventType();
-            _culturalHall.AddEvent(CreateEvent(eventType));
+            culturalHall.AddEvent(CreateEvent(eventType));
         }
 
         private Event CreateEvent(string eventType)
@@ -101,8 +101,8 @@ namespace Project
         private int GetHall(DateTime eventTime)
         {
             Console.WriteLine("Enter hall:");
-            int eventHall = int.Parse(Console.ReadLine());
-            if (_culturalHall.IsHallOccupied(eventTime, eventHall))
+            int eventHall = GetInt();
+            if (culturalHall.IsHallOccupied(eventTime, eventHall))
             {
                 Console.WriteLine("This hall is occupied at this time.");
                 Console.WriteLine("");
@@ -130,12 +130,14 @@ namespace Project
         {
             Console.WriteLine("Enter musical instruments");
             Console.WriteLine("How many musical instruments are there in the concert?");
-            int numberOfInstruments = int.Parse(Console.ReadLine());
+            int numberOfInstruments = GetInt();
             List<string> instrument = new List<string>();
             for (int i = 0; i < numberOfInstruments; i++)
             {
                 Console.WriteLine($"{i} Enter musical instrument:");
-                instrument.Add(Console.ReadLine());
+                string newInstrument = Console.ReadLine();
+                NullCheck(newInstrument);
+                instrument.Add(newInstrument);
             }
 
             Concert newConcert = new Concert(instrument, length, time, hall, minimumAge);
@@ -146,6 +148,7 @@ namespace Project
         {
             Console.WriteLine("Enter title:");
             string eventTitle = Console.ReadLine();
+            NullCheck(eventTitle);
 
             Show newShow = new Show(eventTitle, length, time, hall, minimumAge);
             return newShow;
@@ -165,7 +168,7 @@ namespace Project
                 dateStr = Console.ReadLine();
             }
 
-            List<Event> eventsOnDate = _culturalHall.GetEventsByDate(date);
+            List<Event> eventsOnDate = culturalHall.GetEventsByDate(date);
 
             if (eventsOnDate.Count > 0)
             {
@@ -188,7 +191,7 @@ namespace Project
             string usernameToSee = Console.ReadLine();
             NullCheck(usernameToSee);
             
-            _culturalHall.DisplayTicketsOfUser(usernameToSee);
+            culturalHall.DisplayTicketsOfUser(usernameToSee);
         }
     }
 }

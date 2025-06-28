@@ -4,6 +4,7 @@ using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace Project
 {
@@ -25,6 +26,7 @@ namespace Project
                 Console.WriteLine("Enter 3 - To see all the employees");
                 Console.WriteLine("Enter 4 - To add an employee");
                 Console.WriteLine("Enter 5 - To fire an employee");
+                Console.WriteLine("Enter 6 - To appoint a new CEO");
 
                 int selection = int.Parse(Console.ReadLine());
 
@@ -39,7 +41,7 @@ namespace Project
                     break;
 
                     case 3:
-                        _culturalHall.DisplayWorkers();
+                        culturalHall.DisplayWorkers();
                     break;
 
                     case 4:
@@ -50,6 +52,10 @@ namespace Project
                         FireEmployee();
                     break;
 
+                    case 6:
+                        NewCEO();
+                    break;
+
                     default:
                         Console.WriteLine("Please select one of the options");
                     break;
@@ -58,26 +64,39 @@ namespace Project
             }
         }
 
-        private void FireEmployee()
+        private void NewCEO()
         {
-            _culturalHall.DisplayWorkers();
-            int selection;
-            do
-            {
-                Console.WriteLine("Please enter the number of the employee you would like to fire. (one of the Options)");
-                selection = GetInt();
-            }
-            while (!(selection >= 0 && selection < _culturalHall.Workers.Count + 1));
-
-            Worker selectedWorker =  _culturalHall.Workers[selection];
-
-            Console.WriteLine("Selected employee to fire -");
-            selectedWorker.Display();
-            Console.WriteLine("Confirm that this is the employee you want to fire ('yes', any other answer will be considered no):");
+            Worker newCEO = CreateWorker();
+            Console.WriteLine("Are you sure you want to appoint a new CEO? If you do this you will no longer have access to the CEO menu.");
+            Console.WriteLine("To confirm please enter 'yes' (any other answer will be considered no)");
             string confirm = Console.ReadLine();
             if (confirm == "yes")
             {
-                _culturalHall.FireEmployee(selectedWorker);
+                culturalHall.ReplaceCEO(newCEO);
+                MainMenuStart();
+            }
+        }
+
+        private void FireEmployee()
+        {
+            culturalHall.DisplayWorkers();
+            int selection;
+            do
+            {
+                Console.WriteLine("Please enter the number of the employee you would like to fire (one of the Options)");
+                selection = GetInt();
+            }
+            while (!(selection >= 0 && selection < culturalHall.Workers.Count + 1));
+
+            Worker selectedWorker =  culturalHall.Workers[selection];
+
+            Console.WriteLine("Selected employee to fire -");
+            selectedWorker.Display();
+            Console.WriteLine("Confirm that this is the employee you want to fire ('yes', any other answer will be considered no)");
+            string confirm = Console.ReadLine();
+            if (confirm == "yes")
+            {
+                culturalHall.FireEmployee(selectedWorker);
             }
             else
             {
@@ -86,6 +105,12 @@ namespace Project
         }
 
         private void AddWorker()
+        {
+            culturalHall.AddWorker(CreateWorker());
+            Console.WriteLine("Employee added successfully");
+        }
+
+        private Worker CreateWorker()
         {
             Console.WriteLine("");
             Console.WriteLine("Full name:");
@@ -96,7 +121,6 @@ namespace Project
 
             Console.WriteLine("Start date:");
             string dateStr = Console.ReadLine();
-            NullCheck(dateStr);
             DateOnly startDate;
             while (!DateOnly.TryParse(dateStr, out startDate))
             {
@@ -111,19 +135,17 @@ namespace Project
 
             Console.WriteLine("Role:");
             string role = Console.ReadLine();
-            NullCheck (role);
+            NullCheck(role);
             Console.WriteLine("");
 
             Worker newWorker = new Worker(fullName, Id, startDate, salary, role);
-            _culturalHall.AddWorker(newWorker);
-            Console.WriteLine("Employee added successfully");
+            return newWorker;
         }
 
         private int GetId()
         {
             Console.WriteLine("Id:");
             string idStr = Console.ReadLine();
-            NullCheck(idStr);
 
             if (int.TryParse(idStr, out int id) && idStr.Length == 9)
             {

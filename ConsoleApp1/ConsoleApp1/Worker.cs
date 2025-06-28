@@ -26,7 +26,6 @@ namespace Project
 
         public void Display()
         {
-            Console.WriteLine("");
             Console.WriteLine($"Full name: {FullName}");
             Console.WriteLine($"Id: {Id}");
             Console.WriteLine($"Start date: {StartDate.ToString()}");
