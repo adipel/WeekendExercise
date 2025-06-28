@@ -23,7 +23,8 @@ namespace Project
                 Console.WriteLine("Enter 1 - To exit");
                 Console.WriteLine("Enter 2 - To change username");
                 Console.WriteLine("Enter 3 - To see all the employees");
-                Console.WriteLine("Enter 4 - To fire an employee");
+                Console.WriteLine("Enter 4 - To add an employee");
+                Console.WriteLine("Enter 5 - To fire an employee");
 
                 int selection = int.Parse(Console.ReadLine());
 
@@ -45,11 +46,42 @@ namespace Project
                         AddWorker();
                     break;
 
+                    case 5:
+                        FireEmployee();
+                    break;
+
                     default:
                         Console.WriteLine("Please select one of the options");
                     break;
 
                 }
+            }
+        }
+
+        private void FireEmployee()
+        {
+            _culturalHall.DisplayWorkers();
+            int selection;
+            do
+            {
+                Console.WriteLine("Please enter the number of the employee you would like to fire. (one of the Options)");
+                selection = GetInt();
+            }
+            while (!(selection >= 0 && selection < _culturalHall.Workers.Count + 1));
+
+            Worker selectedWorker =  _culturalHall.Workers[selection];
+
+            Console.WriteLine("Selected employee to fire -");
+            selectedWorker.Display();
+            Console.WriteLine("Confirm that this is the employee you want to fire ('yes', any other answer will be considered no):");
+            string confirm = Console.ReadLine();
+            if (confirm == "yes")
+            {
+                _culturalHall.FireEmployee(selectedWorker);
+            }
+            else
+            {
+                FireEmployee();
             }
         }
 

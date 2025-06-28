@@ -15,7 +15,10 @@ namespace Project
 
             List<Event> events = new List<Event> {show, concert};
 
-            CulturalHall culturalHall = new CulturalHall(events);
+            DateOnly dateOnly = new DateOnly(2020, 2, 2);
+            Worker theCEO = new Worker("adi peled", 123456789, dateOnly, 20000, "CEO");
+
+            CulturalHall culturalHall = new CulturalHall(events, theCEO);
 
             Menu menu = new Menu(culturalHall);
 
