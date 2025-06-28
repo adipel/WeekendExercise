@@ -27,10 +27,15 @@ namespace Project
 
             RegularMenu regularMenu = new RegularMenu(_culturalHall, _userName);
             AdminMenu adminMenu = new AdminMenu(_culturalHall);
+            CEOmenu theCEOmenu = new CEOmenu(_culturalHall);
 
             if (IsAdmin(_userName))
             {
                 adminMenu.Start();
+            }
+            else if (IsCEO(_userName))
+            {
+                theCEOmenu.Start();
             }
             else
             {
@@ -44,11 +49,31 @@ namespace Project
             return userName == "admin";
         }
 
+        private bool IsCEO(string userName)
+        {
+            return userName == "CEO";
+        }
+
         protected void NullCheck(string input)
         {
             if (input == null || input == "")
             {
                 throw new ArgumentNullException();
+            }
+        }
+
+        protected int GetInt()
+        {
+            string str = Console.ReadLine();
+            NullCheck(str);
+            if (int.TryParse(str, out int number))
+            {
+                return number;
+            }
+            else
+            {
+                Console.WriteLine("Invalid input. Please enter a number.");
+                return GetInt();
             }
         }
     }

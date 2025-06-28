@@ -150,7 +150,7 @@ namespace Project
             Show newShow = new Show(eventTitle, length, time, hall, minimumAge);
             return newShow;
         }
-
+        
 
         private void GetEventsOnDate()
         {

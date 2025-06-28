@@ -12,19 +12,36 @@ namespace Project
     {
         private List<Event> _events;
         private List<User> _users;
+        private List<Worker> _workers;
+        public Worker CEO {  get; set; }
 
-        public CulturalHall()
+        public CulturalHall(Worker theCEO)
         {
+            CEO = theCEO;
             _events = new List<Event>();
             List<User> users = new List<User>();
             _users = users;
         }
-
-        public CulturalHall(List<Event> events)
+        
+        public CulturalHall(List<Event> events, Worker theCEO)
         {
+            CEO = theCEO;
             _events = events;
             List<User> users = new List<User>();
             _users = users;
+        }
+
+        public void DisplayWorkers()
+        {
+            foreach (Worker worker in _workers)
+            {
+                worker.Display();
+            }
+        }
+
+        public void AddWorker(Worker newWorker)
+        {
+            _workers.Add(newWorker);
         }
 
         public bool IsHallOccupied(DateTime newEventTime, int newEventHall)
