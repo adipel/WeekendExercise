@@ -27,7 +27,6 @@ namespace Project
 
                 int selection = int.Parse(Console.ReadLine());
 
-
                 switch (selection)
                 {
                     case 1:
