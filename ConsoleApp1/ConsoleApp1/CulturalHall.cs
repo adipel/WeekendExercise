@@ -11,16 +11,49 @@ namespace Project
     internal class CulturalHall
     {
         private List<Event> _events;
-        public Dictionary<string, Event> TicketsOrders;
+        private List<User> _users;
 
         public CulturalHall()
         {
             _events = new List<Event>();
+            List<User> users = new List<User>();
+            _users = users;
         }
 
         public CulturalHall(List<Event> events)
         {
             _events = events;
+            List<User> users = new List<User>();
+            _users = users;
+        }
+
+        public bool IsUserExists(string username)
+        {
+            if(_users != null)
+            {
+                foreach (User user in _users)
+                {
+                    if (user.UserName == username) return true;
+                }
+            }
+            return false;
+            
+        }
+
+        public void AddOrderToExistingUser(string userName, Order newOrder)
+        {
+            foreach (User user in _users)
+            {
+                if (user.UserName == userName)
+                {
+                    user.AddOrder(newOrder);
+                }
+            }
+        }
+
+        public void AddUser(User user)
+        {
+            _users.Add(user);
         }
 
         public void AddEvent(Event newEvent)
@@ -58,7 +91,6 @@ namespace Project
                 count++;
             }
         }
-
         public Event[] GetFutureEvents()
         {
             int count = 0;
@@ -93,6 +125,36 @@ namespace Project
                 }
             }
             return events;
+        }
+
+        public void DisplayTicketsOfUser(User selectedUser)
+        {
+            foreach (User user in _users)
+            {
+                if (user == selectedUser)
+                {
+                    user.Display();
+                }
+            }
+        }
+
+        public void DisplayTicketsOfUser(string usernameToSee)
+        {
+
+            if (_users != null)
+            {
+                foreach (User user in _users)
+                {
+                    if (user.UserName == usernameToSee)
+                    {
+                        user.Display();
+                    }
+                }
+            }
+            else
+            {
+                Console.WriteLine("There are no orders in the system.");
+            }  
         }
 
 

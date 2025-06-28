@@ -139,6 +139,7 @@ namespace Project
         {
             Console.WriteLine("Enter date:");
             string dateStr = Console.ReadLine();
+            NullCheck(dateStr);
             DateTime date;
             while (!DateTime.TryParse(dateStr, out date))
             {
@@ -168,27 +169,9 @@ namespace Project
         {
             Console.WriteLine("Enter the username whose tickets you would like to see:");
             string usernameToSee = Console.ReadLine();
-            List<Event> userEvents = new List<Event>();
-
-            foreach (string name in _culturalHall.TicketsOrders.Keys)
-            {
-                if (name == usernameToSee)
-                {
-                    userEvents.Add(_culturalHall.TicketsOrders[name]);
-                }
-            }
-            if (userEvents.Count > 0)
-            {
-                foreach (Event events in userEvents)
-                {
-                    events.Display();
-                }
-            }
-            else
-            {
-                Console.WriteLine("This user has not ordered any tickets");
-            }
-
+            NullCheck(usernameToSee);
+            
+            _culturalHall.DisplayTicketsOfUser(usernameToSee);
         }
     }
 }

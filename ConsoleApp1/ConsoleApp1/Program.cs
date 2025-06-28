@@ -19,7 +19,21 @@ namespace Project
 
             Menu menu = new Menu(culturalHall);
 
-            menu.MainMenuStart();
+            NullCatch(menu);
+            
+        }
+
+        public static void NullCatch(Menu menu)
+        {
+            try
+            {
+                menu.MainMenuStart();
+            }
+            catch (ArgumentNullException)
+            {
+                Console.WriteLine("Input cannot be null.");
+                NullCatch(menu);
+            }
         }
     }
 }

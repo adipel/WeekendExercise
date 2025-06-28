@@ -21,10 +21,12 @@ namespace Project
 
         public void MainMenuStart()
         {
-            AdminMenu adminMenu = new AdminMenu(_culturalHall);
-            RegularMenu regularMenu = new RegularMenu(_culturalHall);
             Console.WriteLine("Please enter your username");
             _userName = Console.ReadLine();
+            NullCheck(_userName);
+
+            RegularMenu regularMenu = new RegularMenu(_culturalHall, _userName);
+            AdminMenu adminMenu = new AdminMenu(_culturalHall);
 
             if (IsAdmin(_userName))
             {
@@ -40,6 +42,14 @@ namespace Project
         private bool IsAdmin(string userName)
         {
             return userName == "admin";
+        }
+
+        protected void NullCheck(string input)
+        {
+            if (input == null || input == "")
+            {
+                throw new ArgumentNullException();
+            }
         }
     }
 }

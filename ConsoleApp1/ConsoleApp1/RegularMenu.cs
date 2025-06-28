@@ -8,8 +8,10 @@ namespace Project
 {
     internal class RegularMenu : Menu
     {
-        public RegularMenu(CulturalHall culturalHall) : base(culturalHall)
+        public string UserName { get; set; }
+        public RegularMenu(CulturalHall culturalHall, string userName) : base(culturalHall)
         {
+            UserName = userName;
         }
 
         public void Start()
@@ -57,25 +59,42 @@ namespace Project
         {
             _culturalHall.DisplayOptionsForTickets();
             Event selectedEvent = GetSelectedTicket();
-            Dictionary<string, int> invitedPeople = GetInvitedPeople();
+            Dictionary<string, int> invitedPeopleAndAge = GetInvitedPeople();
 
             bool allAgesAreValid = true;
 
-            foreach (int age in invitedPeople.Values)
+            foreach (int age in invitedPeopleAndAge.Values)
             {
                 if (age < 0 || age < selectedEvent.MinimumAge)
                 {
                     allAgesAreValid = false;
                 }
             }
+
             if (allAgesAreValid)
             {
+                AddOrder(selectedEvent, invitedPeopleAndAge);
                 Console.WriteLine("The order was placed successfully");
-                _culturalHall.TicketsOrders.Add(_userName, selectedEvent);
             }
             else
             {
                 Console.WriteLine($"Sorry, it is not possible to book a ticket for the event. One or more of the people is under the age limit ({selectedEvent.MinimumAge}), or one or more of the ages are incorrect (below zero)");
+            }
+        }
+
+        private void AddOrder(Event theEvent, Dictionary<string, int> invitedPeopleAndAge)
+        {
+            Order newOrder = new Order(theEvent, invitedPeopleAndAge);
+
+            if(_culturalHall.IsUserExists(UserName))
+            {
+                _culturalHall.AddOrderToExistingUser(UserName, newOrder);
+            }
+            else
+            {
+                User newUser = new User(UserName);
+                newUser.AddOrder(newOrder);
+                _culturalHall.AddUser(newUser);
             }
         }
 
